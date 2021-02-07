@@ -12,6 +12,10 @@ ul {
 a {
     text-decoration: none;
 }
+img {
+    max-width: 100%;
+    display: block;
+}
 .container {
     width: 80%;
     margin: 0 auto;
@@ -23,6 +27,9 @@ a {
 }
 .col-md-2 {
     flex-basis: 16%;
+}
+.col-md-3 {
+    flex-basis: 24%;
 }
 .col-md-4 {
     flex-basis: 33%;
@@ -82,4 +89,17 @@ a {
     border-radius: 0px 10px 10px 0px;
     background: burlywood;
     color: #fff;
+}
+.singleMealDiv {
+    padding: 15px;
+}
+.singleMealDiv img {
+    border-radius: 10px 10px 0px 0px;
+}
+.singleMealDiv p {
+    margin: 0;
+    padding: 15px;
+    border-radius: 0px 0px 10px 10px;
+    background: #e6e6e6;
+    text-align: center;
 }
